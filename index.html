@@ -1,0 +1,26 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><link rel="icon" href="data:">
+<title>ARサバエドッグ</title>
+<script type="module">
+import * as eg from "https://js.sabae.cc/egvr.js";
+
+eg.box(0, 0 - 10 / 2, 0, 10, "occ");
+eg.box(0, 3 + 10 / 2, 0, 10, "occ");
+
+const dogs = [];
+for (let i = 0; i < 30; i++) {
+  const x = Math.random() * 3 - 1.5;
+  const z = -0.1 - Math.random() * 1.5;
+  const y = 3.5 + Math.random() * 1;
+  const m = eg.model("./sabaedog.glb", x, y, z);
+  m.setAttribute("animation", )
+  m.setAttribute("animation", `
+    property: position;
+    to: ${x} ${y - 5} ${z};
+    dur: 8000;
+    easing: linear;
+    loop: true;
+  `);
+  dogs.push(m);
+}
+
+</script>
