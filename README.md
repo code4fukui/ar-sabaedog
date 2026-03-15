@@ -1,7 +1,15 @@
 # ar-sabaedog
- 
-- [ARサバエドッグ](https://code4fukui.github.io/ar-sabaedog/)
 
-## データ
+AR Saba Dog
 
-- サバエドッグ [GLB](https://code4fukui.github.io/ar-sabaedog/sabaedog.glb) / [USDZ](https://code4fukui.github.io/ar-sabaedog/sabaedog.usdz)
+## Demo
+
+- [AR Saba Dog](https://code4fukui.github.io/ar-sabaedog/)
+
+## Data
+
+- Saba Dog [GLB](https://code4fukui.github.io/ar-sabaedog/sabaedog.glb) / [USDZ](https://code4fukui.github.io/ar-sabaedog/sabaedog.usdz)
+
+## License
+
+MIT License
